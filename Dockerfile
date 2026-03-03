@@ -7,14 +7,14 @@ EXPOSE 80 443
 ## --- ENV ---
 ENV \
     DB_NAME=cacti \
-    DB_USER=cactiuser \
-    DB_PASS=cactipassword \
-    DB_HOST=localhost \
+    DB_USER=cacti \
+    DB_PASS=cacti \
+    DB_HOST=192.168.1.2 \
     DB_PORT=3306 \
     RDB_NAME=cacti \
-    RDB_USER=cactiuser \
-    RDB_PASS=cactipassword \
-    RDB_HOST=localhost \
+    RDB_USER=cacti \
+    RDB_PASS=cacti \
+    RDB_HOST=192.168.1.2 \
     RDB_PORT=3306 \
     CACTI_URL_PATH=cacti \
     BACKUP_RETENTION=7 \
